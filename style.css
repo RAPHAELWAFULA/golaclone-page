@@ -27,7 +27,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 3px;
+  /* padding: 3px; */
   color: white;
   flex-direction: row;
   margin-top: 20px;
@@ -50,11 +50,15 @@
   padding: 10px;
 }
 
-.navbar img {
-  border-radius: 10px;
+.search {
+  border-radius: 50px;
   margin-right: 10px;
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icons {
@@ -76,19 +80,19 @@
   align-items: flex-start;
   flex-direction: column;
   color: white;
-  /* background-color: rgba(0, 0, 0, 0.8); */
   padding: 20px;
   border-radius: 10px;
   position: relative;
   right: 600px;
   line-height: 1.5;
+  padding-bottom: 150px;
 }
 
 .hero-section h1 {
   font-size: 6em;
   margin-bottom: 20px;
   line-height: 1.2;
-  /* font-family: roboto mono; */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 /* service-section styling */
@@ -100,8 +104,10 @@
   align-items: flex-start;
   flex-wrap: wrap;
   padding: 20px;
-  border-radius: 9px;
-  border: 1px solid black;
+  border-radius: 50px;
+  /* border: 1px solid black; */
+  margin-top: -100px;
+  background-color: white;
 }
 
 .Services {
@@ -120,19 +126,31 @@
   width: 100px;
   height: 50px;
 }
-
+.h2 {
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
 .contributions {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  /* padding-left: 20px; */
+  /* padding: 10%; */
   border-radius: 10px;
   background-color: white;
   margin-top: 50px;
   /* gap: 50px; */
   width: 90%;
+  position: relative;
+  left: 50px;
 }
+
 .butions {
   display: flex;
   justify-content: flex-start;
@@ -140,7 +158,7 @@
   flex-direction: column;
   padding: 20px;
   border-radius: 10px;
-  background-color: #b4b4b8;
+  background-color: #f6faf9;
   margin-top: 50px;
 }
 .butions h2 {
